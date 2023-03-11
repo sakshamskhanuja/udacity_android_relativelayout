@@ -2,7 +2,8 @@
 
 ### About
 
-The application shows a <b>ViewGroup</b> - ```RelativeLayout``` that has positioned all its child Views relative to parent and each other.
+The application shows a <b>ViewGroup</b> - ```RelativeLayout``` that has positioned all its child
+Views relative to parent and each other.
 
 ### Topics
 
