@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+
+    <!-- Guest List -->
+    <string name="guest_i">Kunal</string>
+    <string name="guest_ii">Ben</string>
+    <string name="guest_iii">Kagure</string>
+    <string name="guest_iv">Lyla</string>
+    <string name="guest_v">Natalie</string>
+    <string name="guest_vi">Me</string>
+    <string name="guest_vii">Jennie</string>
+    <string name="guest_viii">Omoju</string>
+    <string name="guest_ix">Amy</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#212121</color>
+    <color name="colorPrimary">@color/colorPrimaryDark</color>
+    <color name="colorPrimaryDark">@color/colorAccent</color>
+    <color name="guestListBackground">#03458D</color>
+    <color name="colorBackground">#FB742B</color>
+    <color name="colorText">@android:color/white</color>
+</resources>

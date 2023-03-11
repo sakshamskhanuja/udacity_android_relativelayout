@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Guest List IDs -->
+    <item name="benTextView" type="id" />
+    <item name="lylaTextView" type="id" />
+    <item name="jennieTextView" type="id" />
+    <item name="omojuTextView" type="id" />
+</resources>

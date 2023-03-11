@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <!-- Ben TextView -->
+    <TextView
+        android:id="@id/benTextView"
+        style="@style/GuestList"
+        android:layout_centerHorizontal="true"
+        android:text="@string/guest_ii" />
+
+    <!-- Lyla TextView -->
+    <TextView
+        android:id="@id/lylaTextView"
+        style="@style/GuestList"
+        android:layout_alignParentBottom="true"
+        android:text="@string/guest_iv" />
+
+    <!-- Jennie TextView-->
+    <TextView
+        android:id="@id/jennieTextView"
+        style="@style/GuestList"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/guest_vii" />
+
+    <!-- Kunal TextView -->
+    <TextView
+        style="@style/GuestList"
+        android:layout_toStartOf="@id/benTextView"
+        android:text="@string/guest_i" />
+
+    <!-- Kagure TextView -->
+    <TextView
+        style="@style/GuestList"
+        android:layout_toEndOf="@id/benTextView"
+        android:text="@string/guest_iii" />
+
+    <!-- Natalie TextView -->
+    <TextView
+        style="@style/GuestList"
+        android:layout_above="@id/lylaTextView"
+        android:text="@string/guest_v" />
+
+    <!-- Me TextView -->
+    <TextView
+        style="@style/GuestList"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/lylaTextView"
+        android:text="@string/guest_vi" />
+
+    <!-- Omoju TextView -->
+    <TextView
+        android:id="@id/omojuTextView"
+        style="@style/GuestList"
+        android:layout_above="@id/jennieTextView"
+        android:layout_alignParentEnd="true"
+        android:text="@string/guest_viii" />
+
+    <!-- Amy TexView -->
+    <TextView
+        style="@style/GuestList"
+        android:layout_above="@id/omojuTextView"
+        android:layout_alignParentEnd="true"
+        android:text="@string/guest_ix" />
+</RelativeLayout>
