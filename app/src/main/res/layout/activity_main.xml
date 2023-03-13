@@ -8,21 +8,21 @@
 
     <!-- Ben TextView -->
     <TextView
-        android:id="@id/benTextView"
+        android:id="@id/ben_text_view"
         style="@style/GuestList"
         android:layout_centerHorizontal="true"
         android:text="@string/guest_ii" />
 
     <!-- Lyla TextView -->
     <TextView
-        android:id="@id/lylaTextView"
+        android:id="@id/lyla_text_view"
         style="@style/GuestList"
         android:layout_alignParentBottom="true"
         android:text="@string/guest_iv" />
 
     <!-- Jennie TextView-->
     <TextView
-        android:id="@id/jennieTextView"
+        android:id="@id/jennie_text_view"
         style="@style/GuestList"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -31,40 +31,40 @@
     <!-- Kunal TextView -->
     <TextView
         style="@style/GuestList"
-        android:layout_toStartOf="@id/benTextView"
+        android:layout_toStartOf="@id/ben_text_view"
         android:text="@string/guest_i" />
 
     <!-- Kagure TextView -->
     <TextView
         style="@style/GuestList"
-        android:layout_toEndOf="@id/benTextView"
+        android:layout_toEndOf="@id/ben_text_view"
         android:text="@string/guest_iii" />
 
     <!-- Natalie TextView -->
     <TextView
         style="@style/GuestList"
-        android:layout_above="@id/lylaTextView"
+        android:layout_above="@id/lyla_text_view"
         android:text="@string/guest_v" />
 
     <!-- Me TextView -->
     <TextView
         style="@style/GuestList"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@id/lylaTextView"
+        android:layout_toEndOf="@id/lyla_text_view"
         android:text="@string/guest_vi" />
 
     <!-- Omoju TextView -->
     <TextView
-        android:id="@id/omojuTextView"
+        android:id="@id/omoju_text_view"
         style="@style/GuestList"
-        android:layout_above="@id/jennieTextView"
+        android:layout_above="@id/jennie_text_view"
         android:layout_alignParentEnd="true"
         android:text="@string/guest_viii" />
 
     <!-- Amy TexView -->
     <TextView
         style="@style/GuestList"
-        android:layout_above="@id/omojuTextView"
+        android:layout_above="@id/omoju_text_view"
         android:layout_alignParentEnd="true"
         android:text="@string/guest_ix" />
 </RelativeLayout>
